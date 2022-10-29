@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import { Fragment } from 'react';
+import Scan from './components/scan';
 import './App.css';
+import { wait } from '@testing-library/user-event/dist/utils';
+
+const fetchDbz = async (characters) =>{
+  const response = await fetch(`https://dragon-ball-super-api.herokuapp.com/api/characters/${characters}`);
+  
+  const data = await response.json();
+  return data;
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Counter DBZ</h1>
+      <Scan src_img='/img/counter.png' characterName={null} />
     </div>
   );
 }
