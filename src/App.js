@@ -1,22 +1,17 @@
-import { Fragment } from 'react';
-import Scan from './components/scan';
+import { Link, Outlet } from 'react-router-dom';
 import './App.css';
-import { wait } from '@testing-library/user-event/dist/utils';
+import Navbar from './components/navbar';
 
-const fetchDbz = async (characters) =>{
-  const response = await fetch(`https://dragon-ball-super-api.herokuapp.com/api/characters/${characters}`);
-  
-  const data = await response.json();
-  return data;
-}
 
-function App() {
+  function App() {
+
   return (
     <div>
-      <h1>Counter DBZ</h1>
-      <Scan src_img='/img/counter.png' characterName={null} />
+      <Navbar/>
+      <Outlet/>
     </div>
   );
+
 }
 
 export default App;
