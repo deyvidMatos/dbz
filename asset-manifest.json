@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dbz/static/css/main.17c79d90.css",
+    "main.js": "/dbz/static/js/main.ef068877.js",
+    "static/js/787.9c3adced.chunk.js": "/dbz/static/js/787.9c3adced.chunk.js",
+    "static/media/fundo scouter.png": "/dbz/static/media/fundo scouter.c668cc6421922b0839c9.png",
+    "index.html": "/dbz/index.html",
+    "main.17c79d90.css.map": "/dbz/static/css/main.17c79d90.css.map",
+    "main.ef068877.js.map": "/dbz/static/js/main.ef068877.js.map",
+    "787.9c3adced.chunk.js.map": "/dbz/static/js/787.9c3adced.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17c79d90.css",
+    "static/js/main.ef068877.js"
+  ]
+}
