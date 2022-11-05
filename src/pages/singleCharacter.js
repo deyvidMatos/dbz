@@ -30,7 +30,7 @@ const SingleCharacter = () =>{
 
     return (
         <div className="scountContainer">
-            <img src="/img/counter.png" className="scouter" />
+            <img src="/build/img/counter.png" className="scouter" />
             <div className="scouter-background">
                 <img src={singleCharacter.imageUrl} className="singleCharacter" />
             </div>
