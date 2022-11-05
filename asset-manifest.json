@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/dbz/static/css/main.39966b15.css",
-    "main.js": "/dbz/static/js/main.de8e499c.js",
+    "main.js": "/dbz/static/js/main.53697d0b.js",
     "static/js/787.9c3adced.chunk.js": "/dbz/static/js/787.9c3adced.chunk.js",
     "static/media/fundo scouter.png": "/dbz/static/media/fundo scouter.c668cc6421922b0839c9.png",
     "index.html": "/dbz/index.html",
     "main.39966b15.css.map": "/dbz/static/css/main.39966b15.css.map",
-    "main.de8e499c.js.map": "/dbz/static/js/main.de8e499c.js.map",
+    "main.53697d0b.js.map": "/dbz/static/js/main.53697d0b.js.map",
     "787.9c3adced.chunk.js.map": "/dbz/static/js/787.9c3adced.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39966b15.css",
-    "static/js/main.de8e499c.js"
+    "static/js/main.53697d0b.js"
   ]
 }
