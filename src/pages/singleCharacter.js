@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 
+import counterUrl from "./counter.png"
 import "./singleCharacter.css"
 
 const SingleCharacter = () =>{
@@ -30,7 +31,7 @@ const SingleCharacter = () =>{
 
     return (
         <div className="scountContainer">
-            <img src="/build/img/counter.png" className="scouter" />
+            <img src={counterUrl} className="scouter" />
             <div className="scouter-background">
                 <img src={singleCharacter.imageUrl} className="singleCharacter" />
             </div>
