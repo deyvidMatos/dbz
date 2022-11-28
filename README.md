@@ -31,7 +31,7 @@ Ira acessar a outra pagina, podera ver mais informaçoes do personagens de Drago
 ---
 
 > ## *Uso:*
-> - Mostrar abilidae no conhencimento no ReactJs;
+> - Mostrar o conhencimento de ReactJs;
 > - Usar API com Reactjs;
 > - Usar Router do Reactjs;
 
